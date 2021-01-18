@@ -1,34 +1,16 @@
-# Add 10 to argument a, and return the result:
-x = lambda a: a + 10
-print(x(8))
+# This is a sample Python script.
 
-# Multiply argument a with argument b and return the result:
-x = lambda a, b: a * b
-print(x(3, 9))
-
-# Summarize argument a, b, and c and return the result:
-x = lambda a, b, c: a + b + c
-print(x(8, 9, 3))
+# Press Shift+F10 to execute it or replace it with your code.
+# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
 
-# Why Use Lambda Functions.
-# Use that function definition to make a function that always doubles the number you send in:
-def my_function(n):
-    return lambda a: a * n
+def print_hi(name):
+    # Use a breakpoint in the code line below to debug your script.
+    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
 
-Name1 = my_function(2)
-print(Name1(11))
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+    print_hi('PyCharm')
 
-
-# Or, use both function Name1 and Name2:
-def my_function(n):
-    return lambda a: a * n
-
-
-Name1 = my_function(10)
-Name2 = my_function(9)
-print(Name1(2))
-print(Name2(8))
-
-
+# See PyCharm help at https://www.jetbrains.com/help/pycharm/
