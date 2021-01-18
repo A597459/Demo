@@ -1,16 +1,40 @@
-# This is a sample Python script.
+# With the while loop we can execute a set of statements as long as a condition is true.
+i = 1
+while i < 6:
+    print(i)
+    i += 1
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# print 1 to 10:
+i = 1
+while i <= 10:
+    print("1 to 10")
+    i = i + 1
 
+# print 2 to 20:
+i = 2
+while i <= 20:
+    print("2 to 20")
+    i = i + 2
+# print 10 to 1:
+i = 10
+while i >= 1:
+    print("10 to 1")
+    i = i - 1
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+# print 20 to 10:
+i = 20
+while i >= 10:
+    print("20 to 10")
+    i -= 10
 
+# print 20 to 1:
+i = 20
+while i >= 1:
+    print("20 to 1")
+    i = i - 1
+    # wap to print 3 times "Hello World" than print 1 time "Learning python" using while loop:
+i = 1
+while i <= 4:
+    print("Hello World")
+    i = i + 1
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
